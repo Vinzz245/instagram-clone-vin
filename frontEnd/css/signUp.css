@@ -1,0 +1,63 @@
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    width: 350px;
+    text-align: center;
+}
+
+.signup-container h2 {
+    margin-bottom: 20px;
+}
+
+.signup-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.signup-container button:hover {
+    background-color: #318ce7;
+}
+
+.title {
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
